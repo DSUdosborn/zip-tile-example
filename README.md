@@ -1,6 +1,9 @@
 
 > Open this page at [https://dsudosborn.github.io/zip-tile-example/](https://dsudosborn.github.io/zip-tile-example/)
 
+This is a repost of the kitroniks zip tile example code available for download.  
+It has been modified to reduce the brightness of the LEDs at startup
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
