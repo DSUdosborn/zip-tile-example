@@ -21,6 +21,16 @@ input.onButtonPressed(Button.A, function () {
         colourFlag = 0
     }
 })
+input.onButtonPressed(Button.AB, function () {
+    tileDisplay.clear()
+    for (let Column = 0; Column <= 7; Column++) {
+        for (let Row = 0; Row <= 7; Row++) {
+            tileDisplay.setMatrixColor(Column, Row, Kitronik_Zip_Tile.colors(ZipLedColors.Red))
+            tileDisplay.show()
+            basic.pause(200)
+        }
+    }
+})
 input.onButtonPressed(Button.B, function () {
     tileDisplay.scrollText(
     "I am a ZIP Tile",
